@@ -10,7 +10,7 @@
 
 header {
     width: 100%;
-    height: 24vh;    
+    height: 22vh;    
     background-position: center;
     background-size: cover;   
     background: linear-gradient(90deg, yellow, orange, red, yellow); 
@@ -24,7 +24,7 @@ header {
 
 ._img-header{
     width: 100%;
-    height: 22vh; 
+    height: 20vh; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -37,7 +37,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;  
-    padding: 5px;
+    padding-left: 100px;
 }
 
 ._menu-header button {
@@ -83,7 +83,7 @@ section{
 ._produtos-container{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(90deg,rgb(188, 246, 191), rgb(103, 250, 103), rgb(188, 246, 191));
+    background: linear-gradient(rgb(188, 246, 191), rgb(103, 250, 103), rgb(188, 246, 191));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,6 +105,16 @@ section{
     font-size: 30px;
     font-weight: bolder;
     padding-top: 20px;
+}
+
+._titulo a {
+    text-decoration: none;
+    color: purple;
+}
+
+._titulo a:hover {
+    text-decoration: none;
+    color: yellow; 
 }
 
 ._produtos-home li {
@@ -131,7 +141,7 @@ section{
 }
 
 ._carrossel {        
-    box-shadow: 2px 2px 10px darkgreen;
+    box-shadow: 10px 5px 20px darkgreen;
     overflow: hidden;
     width: 500px;
     height: 500px;
@@ -147,4 +157,141 @@ section{
     object-fit: cover;
     width: 500px;
     height: 500px;
+}
+
+._beneficios-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient( #9932cc, #800080, #9932cc);
+    width: 100%;
+    height: 100vh;    
+    color: #4ee44e;
+}
+
+._beneficios-titulo{
+    padding-bottom: 5px;
+}
+
+._beneficios-titulo h1{
+    font-family: 'Bangers', cursive;
+    color: #4ee44e;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+._beneficios-titulo p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+._beneficios-videos {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+._beneficios-videos iframe {
+    padding: 20px;
+    box-shadow: 10px 5px 20px rgb(29, 0, 29);
+}
+
+._beneficios-videos iframe:hover{
+    box-shadow: 10px 5px 20px yellow;
+}
+
+._beneficios-p {
+    width: 900px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    padding: 10px;
+    border: solid yellowgreen;
+    box-shadow: 5px 5px 5px yellowgreen;
+}
+
+._beneficios-p p {
+    padding-bottom: 10px;
+}
+
+._mapa-container{
+    padding: 3em 0;
+    background: linear-gradient(#9932cc, #13001d);
+
+}
+
+._titulo-h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Bangers', cursive;
+    color: #4ee44e;
+}
+
+._titulo-h3 h3{    
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+._titulo-h3 p {
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+._mapa {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+._footer-container {     
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    background: #13001d;
+    
+}
+
+._footer-logo {
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+._footer-logo img {
+    width: 110px;
+    height: 110px;
+}
+
+._footer-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #4ee44e;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+._footer-span span {
+    padding: 5px;
+}
+
+._span-dev {
+    font-size: 10px;
 }
