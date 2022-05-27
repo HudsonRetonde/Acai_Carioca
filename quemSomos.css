@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: 'Roboto', sans-serif;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:ital,wght@0,300;1,300;1,600&family=Outfit:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:wght@300;400;700&family=Open+Sans:ital,wght@0,300;1,300;1,600&family=Outfit:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+header {
+    width: 100%;
+    height: 22vh;    
+    background-position: center;
+    background-size: cover;   
+    background: linear-gradient(90deg, yellow, orange, red, yellow); 
+}
+
+._container-header{
+    display: flex;    
+    align-items: center ;
+    justify-content: space-between;
+}
+
+._img-header{
+    width: 100%;
+    height: 20vh; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+._menu-header{
+    width: 100%;
+    height: 22vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    padding-left: 100px;
+}
+
+._menu-header button {
+    padding: 3px;
+    border-color: rgb(250, 25, 238);    
+    border-radius: 4px;
+    margin-left: 10px;
+    background: linear-gradient(90deg, rgb(103, 250, 103), green);
+}
+
+._menu-header a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bolder;
+    color: purple;    
+    font-size: 22px;
+    font-family: 'Bangers', cursive;
+}
+
+._menu-header button:hover {
+    padding: 3px;
+    border-color: rgb(250, 25, 238);    
+    border-radius: 4px;
+    margin-left: 10px;
+    background: linear-gradient(90deg, rgb(193, 1, 190), rgb(50, 0, 50));
+}
+
+._menu-header img {
+    width: 25px;
+    height: 22px;
+    padding: 0 6px;    
+}
+
+._menu-header a:hover {
+    text-decoration: none;
+    color: yellow;    
+    font-size: 22px;
+}
+
+._quem-somos-container {
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(rgb(188, 246, 191), rgb(103, 250, 103), rgb(188, 246, 191));
+    color: purple;
+}
+
+._quem-somos-text {
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    flex-direction: column;
+}
+
+._quem-somos-text h1{
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+._quem-somos-text p {
+    font-family: 'Bangers', cursive;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+._quem-somos-text h2{
+    font-family: 'Bangers', cursive;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+._quem-somos-text a {
+    text-decoration: none;
+    color: purple;
+}
+
+._quem-somos-text a:hover {
+    color: orangered;
+}
+
+
+._footer-container {     
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    background:  #020004;
+    
+}
+
+._footer-logo {
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+._footer-logo img {
+    width: 110px;
+    height: 110px;
+}
+
+._footer-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #4ee44e;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+._footer-span span {
+    padding: 5px;
+}
+
+._span-dev {
+    font-size: 10px;
+}

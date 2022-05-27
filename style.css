@@ -54,6 +54,7 @@ header {
     font-weight: bolder;
     color: purple;    
     font-size: 22px;
+    font-family: 'Bangers', cursive;
 }
 
 ._menu-header button:hover {
@@ -223,8 +224,8 @@ section{
 
 ._mapa-container{
     padding: 3em 0;
-    background: linear-gradient(#9932cc, #13001d);
-
+    background: linear-gradient(#9932cc, #020004);    
+    height: 100vh;
 }
 
 ._titulo-h3 {
@@ -239,7 +240,7 @@ section{
 ._titulo-h3 h3{    
     font-size: 30px;
     font-weight: bolder;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 ._titulo-h3 p {
@@ -261,7 +262,7 @@ section{
     display: flex;
     flex-direction: column;   
     text-align: center;
-    background: #13001d;
+    background:  #020004;
     
 }
 
