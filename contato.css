@@ -84,14 +84,11 @@ header {
     color: purple;
 }
 
-
-
 ._footer-container {     
     display: flex;
     flex-direction: column;   
     text-align: center;
-    background:  #020004;
-    
+    background: linear-gradient(90deg, yellow, orange, red, yellow);     
 }
 
 ._footer-logo {
@@ -112,13 +109,14 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #4ee44e;
+    color: purple;
     font-size: 15px;
     padding-bottom: 5px;
 }
 
 ._footer-span span {
     padding: 5px;
+    font-family: 'Bangers', cursive;
 }
 
 ._span-dev {

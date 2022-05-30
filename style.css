@@ -175,10 +175,10 @@ section{
     padding-bottom: 5px;
 }
 
-._beneficios-titulo h1{
+._beneficios-titulo h2{
     font-family: 'Bangers', cursive;
     color: #4ee44e;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bolder;
     padding-bottom: 5px;
 }
@@ -186,6 +186,7 @@ section{
 ._beneficios-titulo p {
     font-size: 20px;
     font-weight: bolder;
+    font-family: 'Bangers', cursive;
 }
 
 ._beneficios-videos {
@@ -220,11 +221,13 @@ section{
 
 ._beneficios-p p {
     padding-bottom: 10px;
+    font-family: 'Bangers', cursive;
+    font-weight: bolder;
 }
 
 ._mapa-container{
     padding: 3em 0;
-    background: linear-gradient(#9932cc, #020004);    
+    background: linear-gradient(rgb(188, 246, 191), rgb(103, 250, 103), rgb(188, 246, 191));   
     height: 100vh;
 }
 
@@ -233,20 +236,21 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Bangers', cursive;
-    color: #4ee44e;
+    color: purple;
 }
 
 ._titulo-h3 h3{    
     font-size: 30px;
     font-weight: bolder;
-    padding-bottom: 15px;
+    padding-bottom: 15px;    
+    font-family: 'Bangers', cursive;
 }
 
 ._titulo-h3 p {
     font-size: 18px;
     font-weight: bolder;
-    padding-bottom: 20px;
+    padding-bottom: 20px;    
+    font-family: 'Bangers', cursive;
 }
 
 ._mapa {
@@ -262,8 +266,7 @@ section{
     display: flex;
     flex-direction: column;   
     text-align: center;
-    background:  #020004;
-    
+    background: linear-gradient(90deg, yellow, orange, red, yellow);     
 }
 
 ._footer-logo {
@@ -284,13 +287,14 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #4ee44e;
+    color: purple;
     font-size: 15px;
     padding-bottom: 5px;
 }
 
 ._footer-span span {
-    padding: 5px;
+    padding: 5px;    
+    font-family: 'Bangers', cursive;
 }
 
 ._span-dev {
