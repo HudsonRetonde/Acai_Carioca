@@ -23,7 +23,7 @@
     </header>
     <section>
         <div class="_contato-container">
-            <div class="_formulario">
+            <div class="_formulario" id="formulario">
                 <form>
                     <label for="nomesobrenome">Nome e sobrenome</label>
                     <input type="text" id="nomesobrenome" class="input-padrao" required>
@@ -47,22 +47,22 @@
                     <fieldset>
                         <legend>Qual horário prefere ser atendido?</legend>
                         <select>
-                            <option value>Manhã</option>
-                            <option value>Tarde</option>
-                            <option value>Noite</option>  
+                            <option id="manha" value>Manhã</option>
+                            <option id="tarde" value>Tarde</option>
+                            <option id="noite" value>Noite</option>  
                         </select>
                     </fieldset>
                     <label class="checkbox">
-                        <input type="checkbox" checked>
+                        <input id="checbox"  type="checkbox" checked>
                         Gostaria de receber nossas novidades por e-mail?
                     </label>
                     <div class="_enviar">
                         <input type="submit" value="Enviar Formulário" class="enviar">
                     </div>                    
                 </form>                                
-            </div>
-            
+            </div>            
         </div>
+        <div id="resultado"></div>
     </section>    
     <footer>
         <div class="_footer-container">
@@ -87,6 +87,7 @@
                 <span>(27) 99299-6329</span>
             </div>
         </div>        
-    </footer>    
+    </footer> 
+    <script src="script/formulario.js"></script>   
 </body>
 </html>
